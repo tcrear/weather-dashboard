@@ -1,0 +1,156 @@
+.underlined {
+    border-bottom: 1px black solid;
+}
+
+.inline {
+    display: inline;
+}
+
+:root {
+    --dark: blue; 
+    --light: #fff;
+    --navlink-color: #b9c6ae;
+}
+
+button:hover {
+    transition:.5s;
+    color: #fff;
+    background-color: var(--dark);
+    border-style: none;
+}
+
+header {
+    text-align: center;
+    background-color: var(--dark);  
+    padding-bottom: 50px;
+}
+
+.temp {
+    display: inline;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--dark);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+    
+h1 {
+    font-size: 100px;
+    padding-top: 15%;
+    padding-bottom: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+header p {
+    text-align: center;
+    font-size: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-inline: 40px;
+}
+
+.contact-me nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-inline: 40px;
+}
+
+.portfolio-work {
+    justify-content: right;
+}
+
+.about-me {
+    justify-self: left;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start
+}
+
+aside {
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+aside img {
+    width: 380px;
+    height: 500px;
+    padding-block: border;
+}
+
+section {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 50%;
+    padding: 10px;  
+}
+
+article#main {
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    article {
+        max-width: 25%;
+        padding: 15x;  
+    }
+
+    #main {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    article {
+        max-width: 50%;
+        padding: 15x;  
+    }
+
+    #main {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    article {
+        max-width: 100%;
+        padding: 15x;  
+    }
+    #main {
+        max-width: 100%; 
+    }  
+}
+
+button {   
+    border-style: none;
+    padding-top: 2px;   
+    text-decoration-color: wheat;
+}
