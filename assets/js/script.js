@@ -15,12 +15,15 @@
     // add a div of divs for the five-day forecast, populate it 
         // Add images from API
 
-var currentWeatherURL = "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=imperial"
+var APIKey = "7eadfe163e4a916ad08e58e02259128f";
+var oneCallApiURL = https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&units=imperial&appid={7eadfe163e4a916ad08e58e02259128f}
+
 
 fetch(exampleURL)
 .then(function(response) {
     return response.json()
 })
+
 .then(function(data) {
     console.log(data)
     console.log(data.name)
